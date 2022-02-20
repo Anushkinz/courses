@@ -13,6 +13,12 @@
 		843FAFD927C0E2EB003EEB29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843FAFD727C0E2EB003EEB29 /* Main.storyboard */; };
 		843FAFDB27C0E2ED003EEB29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843FAFDA27C0E2ED003EEB29 /* Assets.xcassets */; };
 		843FAFDE27C0E2ED003EEB29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843FAFDC27C0E2ED003EEB29 /* LaunchScreen.storyboard */; };
+		8486E51127C270D1008D7F98 /* FinanceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486E51027C270D1008D7F98 /* FinanceTableViewController.swift */; };
+		8486E51327C27112008D7F98 /* FinanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486E51227C27112008D7F98 /* FinanceTableViewCell.swift */; };
+		8486E51527C27290008D7F98 /* modelFinance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486E51427C27290008D7F98 /* modelFinance.swift */; };
+		84E5F73227C0EA8C007D58C8 /* CriptoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5F73127C0EA8C007D58C8 /* CriptoTableViewController.swift */; };
+		84E5F73427C0F100007D58C8 /* CriptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5F73327C0F100007D58C8 /* CriptoTableViewCell.swift */; };
+		84E5F73627C0F1C7007D58C8 /* modelCripto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5F73527C0F1C7007D58C8 /* modelCripto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		843FAFDA27C0E2ED003EEB29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843FAFDD27C0E2ED003EEB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843FAFDF27C0E2ED003EEB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8486E51027C270D1008D7F98 /* FinanceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTableViewController.swift; sourceTree = "<group>"; };
+		8486E51227C27112008D7F98 /* FinanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTableViewCell.swift; sourceTree = "<group>"; };
+		8486E51427C27290008D7F98 /* modelFinance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelFinance.swift; sourceTree = "<group>"; };
+		84E5F73127C0EA8C007D58C8 /* CriptoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptoTableViewController.swift; sourceTree = "<group>"; };
+		84E5F73327C0F100007D58C8 /* CriptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptoTableViewCell.swift; sourceTree = "<group>"; };
+		84E5F73527C0F1C7007D58C8 /* modelCripto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelCripto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				843FAFD127C0E2EB003EEB29 /* AppDelegate.swift */,
 				843FAFD327C0E2EB003EEB29 /* SceneDelegate.swift */,
 				843FAFD527C0E2EB003EEB29 /* ViewController.swift */,
+				84E5F73127C0EA8C007D58C8 /* CriptoTableViewController.swift */,
+				84E5F73527C0F1C7007D58C8 /* modelCripto.swift */,
+				8486E51427C27290008D7F98 /* modelFinance.swift */,
+				8486E51027C270D1008D7F98 /* FinanceTableViewController.swift */,
+				8486E51227C27112008D7F98 /* FinanceTableViewCell.swift */,
+				84E5F73327C0F100007D58C8 /* CriptoTableViewCell.swift */,
 				843FAFD727C0E2EB003EEB29 /* Main.storyboard */,
 				843FAFDA27C0E2ED003EEB29 /* Assets.xcassets */,
 				843FAFDC27C0E2ED003EEB29 /* LaunchScreen.storyboard */,
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E5F73627C0F1C7007D58C8 /* modelCripto.swift in Sources */,
+				8486E51127C270D1008D7F98 /* FinanceTableViewController.swift in Sources */,
 				843FAFD627C0E2EB003EEB29 /* ViewController.swift in Sources */,
+				84E5F73427C0F100007D58C8 /* CriptoTableViewCell.swift in Sources */,
+				8486E51327C27112008D7F98 /* FinanceTableViewCell.swift in Sources */,
 				843FAFD227C0E2EB003EEB29 /* AppDelegate.swift in Sources */,
+				84E5F73227C0EA8C007D58C8 /* CriptoTableViewController.swift in Sources */,
+				8486E51527C27290008D7F98 /* modelFinance.swift in Sources */,
 				843FAFD427C0E2EB003EEB29 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,8 +319,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,8 +349,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
